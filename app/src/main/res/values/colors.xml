@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="Black">#000000</color>
+    <color name="black">#000</color>
+    <color name="colorAccentDark">#FF225029</color>
+    <color name="lightgreen">#16bc7d</color>
+    <color name="background">#4f0e0d0e</color>
+    <color name="green">#48D26B</color>
+    <color name="DARKGREEN">#36b957</color>
+    <color name="DarkGreen">#006400</color>
+    <color name="Blue">#0000FF</color>
+    <color name="darkbluedark">#417eca</color>
+    <color name="edit_profile">#5F76BF</color>
+    <color name="calaendar">#cc0066</color>
+</resources>

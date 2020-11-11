@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateProfile">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/title"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_margin="20dp"
+                    android:text="Welcome Enock,"
+                    android:textSize="30dp"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="Let get you started on the right market place"
+                    android:textSize="20dp"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_margin="10dp"
+                    android:text="Do you buy from farm producer or sell"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:id="@+id/ckb_buyer"
+                        android:padding="10dp"
+                        android:onClick="onClickFarmerType"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Buyer" />
+                    <CheckBox
+                        android:id="@+id/ckb_seller"
+                        android:padding="10dp"
+                        android:onClick="onClickFarmerType"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Seller" />
+                    <CheckBox
+                        android:id="@+id/ckb_both"
+                        android:padding="10dp"
+                        android:onClick="onClickFarmerType"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Both"
+                        android:layout_centerHorizontal="true" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/ctr"
+                    android:padding="10dp"
+                    android:text="Where do you buy/sell from"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"/>
+                <com.rilixtech.widget.countrycodepicker.CountryCodePicker
+                    android:id="@+id/countrycode"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_margin="10dp"
+                    android:text="Select Your Gender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <RadioGroup
+                        android:id="@+id/radio_group_gender"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/ckb_male"
+                            android:padding="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="onRadioButtonClicked"
+                            android:text="Male" />
+                        <RadioButton
+                            android:id="@+id/ckb_female"
+                            android:padding="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="onRadioButtonClicked"
+                            android:text="Female" />
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Select your age group"
+                    android:layout_margin="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioGroup
+                        android:id="@+id/radio_age_group"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/age12_19"
+                            android:padding="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="onClickAgeGroup"
+                            android:text="12-19" />
+                        <RadioButton
+                            android:id="@+id/age20_34"
+                            android:padding="10dp"
+                            android:onClick="onClickAgeGroup"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="20-34" />
+                        <RadioButton
+                            android:id="@+id/age35_49"
+                            android:padding="10dp"
+                            android:onClick="onClickAgeGroup"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="35-49"
+                            android:layout_centerHorizontal="true" />
+                        <RadioButton
+                            android:id="@+id/age50"
+                            android:padding="10dp"
+                            android:onClick="onClickAgeGroup"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="50+"
+                            android:layout_centerHorizontal="true" />
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Are you a telephone farmer? (farmer not in farm, but visits periodically)"
+                    android:layout_margin="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioGroup
+                        android:id="@+id/radio_group_tele"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <RadioButton
+                            android:id="@+id/tele_yes"
+                            android:padding="10dp"
+                            android:onClick="onClickTelephoneFarmers"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Yes"/>
+                        <RadioButton
+                            android:id="@+id/tele_no"
+                            android:padding="10dp"
+                            android:onClick="onClickTelephoneFarmers"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="No" />
+
+                    </RadioGroup>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/farm_locatiom"
+                android:hint="Where your farm located:"
+                android:textColor="@color/green"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/DARKGREEN"
+                android:textSize="18sp"
+                android:inputType="text"
+                app:met_baseColor="@color/DARKGREEN"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/DARKGREEN"
+                app:met_singleLineEllipsis="true"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/farm_running_place"
+                android:hint="Where do you run it?:"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/green"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/DARKGREEN"
+                android:textSize="18sp"
+                android:inputType="text"
+                app:met_baseColor="@color/DARKGREEN"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/DARKGREEN"
+                app:met_singleLineEllipsis="true"/>
+
+            <Button
+                android:id="@+id/btnupdate"
+                android:text="Update Profile"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:padding="8dp"
+                android:background="@drawable/btn_follow_style"
+                android:backgroundTint="@color/darkbluedark"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</RelativeLayout>

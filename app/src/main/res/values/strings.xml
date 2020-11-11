@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Mkulima</string>
+    <string name="title_activity_home">Mkulima Hodari</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="vinnmutriz"><u>VinnMutriz</u> </string>
+    <string name="menu_gallery">Buyers</string>
+    <string name="menu_slideshow">Soko</string>
+    <string name="menu_tools">Good Practices</string>
+    <string name="menu_share">My Profile</string>
+    <string name="menu_send">Contact Us</string>
+    <string name="admin">Admin</string>
+    <string name="mkulima_hodari">Join Mkulima Hodari <br> Community </br></string>
+    <string name="notice_not_available">Notice not available</string>
+    <string name="ddsd">By clicking Sign Up you agree to the <br> following <span style="color: blue"><b>Terms and Conditions</b></span> with our</br>  <br> rservations</br> </string>
+</resources>

@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "654331558836",
+    "firebase_url": "https://uberclone-13370.firebaseio.com",
+    "project_id": "uberclone-13370",
+    "storage_bucket": "uberclone-13370.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654331558836:android:b4fe6bb2ee84a72f",
+        "android_client_info": {
+          "package_name": "com.example.andelaf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654331558836-tjh8k50ggo9eq5md228mhio9r2aeobca.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.andelaf",
+            "certificate_hash": "e0b86f02337e63bb40b1d74f7cec1cc36dd81a47"
+          }
+        },
+        {
+          "client_id": "654331558836-miv9p1bknin2od8ovt7d26rjmhmbljg1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5riDp9hiR6hL9zjtcH7zhwx2SkyvZ4EM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654331558836-miv9p1bknin2od8ovt7d26rjmhmbljg1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654331558836:android:0d8a03fde9350c03ad10e1",
+        "android_client_info": {
+          "package_name": "com.example.mkulima"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654331558836-98bu39deefgu4mkriluvsq17o0c5sebv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mkulima",
+            "certificate_hash": "f35adbb341220f542a025ebc90527dfd03ca48df"
+          }
+        },
+        {
+          "client_id": "654331558836-kgthqh0igqmho8maie96q3s3k95prtkn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mkulima",
+            "certificate_hash": "e0b86f02337e63bb40b1d74f7cec1cc36dd81a47"
+          }
+        },
+        {
+          "client_id": "654331558836-miv9p1bknin2od8ovt7d26rjmhmbljg1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5riDp9hiR6hL9zjtcH7zhwx2SkyvZ4EM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654331558836-miv9p1bknin2od8ovt7d26rjmhmbljg1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="0dp"
+        android:weightSum="100"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="40"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginRight="33dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Mobile Number"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="19dp"
+                >
+
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:inputType="number"
+                    android:hint="ENTER MOBILE NUMBER"
+                    android:id="@+id/edi_phonenumber"
+                    android:textSize="13sp"
+                    />
+
+
+
+            </LinearLayout></LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            android:gravity="center"
+            android:layout_marginTop="19dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginRight="33dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="0dp"
+
+                >
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnproced"
+                    android:text="PROCEED"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:background="@drawable/rectangle1048"
+                    android:paddingBottom="5dp"
+                    style="?android:borderlessButtonStyle"
+                    />
+            </LinearLayout>
+        </LinearLayout></LinearLayout>
+</LinearLayout>
